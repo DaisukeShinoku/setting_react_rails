@@ -26,7 +26,7 @@ services:
   front:
     build: 
       context: ./front/
-      dockerfile: Dockerfile
+      dockerfile: ../Dockerfile
     volumes:
       - ./front:/usr/src/app
     command: sh -c "yarn start"
