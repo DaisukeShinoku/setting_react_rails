@@ -57,7 +57,7 @@ $ docker-compose up
 上記の作業と別のターミナルを立ち上げて行う
 
 ```
-$ docker-compose run api rake db:create
+$ docker-compose exec api rails db:create
 ```
 
 この時点で下記のURLでそれぞれのデフォルトページが表示されることを確認する
